@@ -4,7 +4,7 @@
    * @author brandon tarney
    * @date  2/17/2017
    */
-#include <cent_convert.h>
+#include <temp_conv.h>
 
 double convert_to_cent(double fahr)
 {
