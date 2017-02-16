@@ -1,8 +1,8 @@
-GROUP	= spr60547431
+GROUP	= Tarney
 PROGRAM = $(EXECUTABLE)
 BIN	= $(PROJECT_ROOT)/bin
 INCLUDE = $(PROJECT_ROOT)/include
-COMMONLLIBS	= -lsocket -lnsl
+COMMONLLIBS	= -larg -ltemp_conv
 
 OBJ	= $(SRC:.c=.o)
 CFLAGS	= -I$(INCLUDE) $(LOCAL_CFLAGS)

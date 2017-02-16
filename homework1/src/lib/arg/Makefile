@@ -11,11 +11,11 @@
 # 
 
 # Library to make (eg: libeg.a)
-LIBRARY = liblibrary1.a 
+LIBRARY = arg.a 
 
 
 # Source files for LIBRARY routines
-SRC	= library1.c
+SRC	= getarg.c
 
 # Master include files for libraries.
 include ../../../Make_templates/Make.lib

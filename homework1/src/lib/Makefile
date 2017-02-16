@@ -1,4 +1,4 @@
-SUBS = library1 library2
+SUBS = arg temp_conv
 
 it install bare clean depend:
 	-BASEPWD=`pwd`; \

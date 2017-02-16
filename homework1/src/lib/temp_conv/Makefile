@@ -11,11 +11,11 @@
 # 
 
 # Library to make (eg: libeg.a)
-LIBRARY = liblibrary2.a 
+LIBRARY = temp_conv.a 
 
 
 # Source files for LIBRARY routines
-SRC	= library2.c
+SRC	= cent_convert.c fahr_convert.c
 
 # Master include files for libraries.
 include ../../../Make_templates/Make.lib

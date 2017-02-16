@@ -14,16 +14,16 @@ LIBDIR		= $(PROJECT_ROOT)/lib
 # INDIVIDUAL PROGRAM MODIFICATIONS SHOULD BEGIN HERE
 
 # Program to make (binary)
-EXECUTABLE	= program1
+EXECUTABLE	= conv_to_fahr.exe
 # Source files for EXECUTABLE 
-SRC	= program1.c
+SRC	= conv_to_fahr.c
 
 # LIBS needed to compile the EXECUTABLE (eg: /usr/local/lib/libspecial.a)
 # use $(LIBDIR) defined above if appropriate
-LIBS	= $(LIBDIR)/liblibrary1.a
+LIBS	= $(LIBDIR)/temp_conv.a
 
 # How they are invoked on the compile line (eg: -lspecial)
-LLIBS	= -llibrary1
+LLIBS	= -ltemp_conv
 
 # Local additions for CFLAG options
 LOCAL_CFLAGS	= -g

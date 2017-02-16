@@ -4,7 +4,8 @@
    * @author brandon tarney
    * @date  2/17/2017
    */
-#include <fahr_convert.h>
+#include <temp_conv.h>
+#include <arg.h>
 #include <stdio.h>
 #include <ctype.h>
 
@@ -16,8 +17,8 @@ int main (int argc, char* argv[])
     {
             //success
 
-    output_celsius = convert_to_celsius(input_fahrenheit);
-    printf("You entered %f deg F which is %f deg C\n",
+            output_celsius = convert_to_celsius(input_fahrenheit);
+            printf("You entered %f deg F which is %f deg C\n",
                     input_fahrenheit, 
                     output_celsius);
             return (0);
@@ -25,6 +26,7 @@ int main (int argc, char* argv[])
     else 
     {
             //input failure: alert the user and exit
+            printf("Input argument failure");
             return (1);
     }
     

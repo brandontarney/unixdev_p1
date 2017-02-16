@@ -1,4 +1,4 @@
-SUBS = program1 program2 program3 program4
+SUBS = conv_to_fahr conv_to_cent 
 
 .SILENT:
 
