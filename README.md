@@ -1,6 +1,6 @@
 # Project 1: Makefiles & Perl/Python
 - JHU 605.414
-- Author varies and much of this work is NOT mine
+- Author is John Noble (professor) and myself
 - I am auditing this course and thus just here to learn
 
 ## Overview
