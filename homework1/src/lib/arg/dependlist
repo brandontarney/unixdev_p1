@@ -1,0 +1,1 @@
+getarg.o: getarg.c ../../../include/getarg.h

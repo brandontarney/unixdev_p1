@@ -1,13 +1,5 @@
-#
-# Project:	Homework #1
-# Module:	program2
-# Programmer:	John C. Noble
-# Organization:	JHU EP
-# Host System:	SunOS 4
-# Date Created: February 10
-# Modifications:
-#	$Log$
-# 
+# Brandon Tarney 
+# 02/2017
 PROJECT_ROOT	= ../../..
 LIBDIR		= $(PROJECT_ROOT)/lib
 
@@ -20,10 +12,10 @@ SRC	= conv_to_cent.c
 
 # LIBS needed to compile the EXECUTABLE (eg: /usr/local/lib/libspecial.a)
 # use $(LIBDIR) defined above if appropriate
-LIBS	= $(LIBDIR)/temp_conv.a $(LIBDIR)/arg.a
+LIBS	= $(LIBDIR)/arg.a $(LIBDIR)/temp_conv.a
 
 # How they are invoked on the compile line (eg: -lspecial)
-LLIBS	= -ltemp_conv -larg
+LLIBS	= -larg -ltemp_conv 
 
 # Local additions for CFLAG options
 LOCAL_CFLAGS	= -g

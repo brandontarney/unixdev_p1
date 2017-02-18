@@ -4,16 +4,16 @@
    * @author brandon tarney
    * @date  2/17/2017
    */
-#include <temp_conv.h>
-#include <arg.h>
 #include <stdio.h>
 #include <ctype.h>
+#include "temp_conv.h"
+#include "getarg.h"
 
 int main (int argc, char* argv[])
 {
     double input_fahrenheit, output_celsius;
 
-    if (getopt(argc, argv, input_fahrenheit) == 0)
+    if (get_argument(argc, argv, &input_fahrenheit) == 0)
     {
             //success
 

@@ -2,7 +2,7 @@ GROUP	= Tarney
 PROGRAM = $(EXECUTABLE)
 BIN	= $(PROJECT_ROOT)/bin
 INCLUDE = $(PROJECT_ROOT)/include
-COMMONLLIBS	= -larg -ltemp_conv
+COMMONLLIBS	=
 
 OBJ	= $(SRC:.c=.o)
 CFLAGS	= -I$(INCLUDE) $(LOCAL_CFLAGS)

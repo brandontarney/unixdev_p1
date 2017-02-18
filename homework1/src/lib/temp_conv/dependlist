@@ -1,0 +1,2 @@
+cent_convert.o: cent_convert.c ../../../include/temp_conv.h
+fahr_convert.o: fahr_convert.c ../../../include/temp_conv.h

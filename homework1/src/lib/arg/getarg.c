@@ -4,8 +4,7 @@
    * @author brandon tarney
    * @date  2/17/2017
    */
-#include <stdlib,h>
-#include <getarg.h>
+#include "getarg.h"
 
 int get_argument(int argc, char* argv[], double* return_value)
 {
