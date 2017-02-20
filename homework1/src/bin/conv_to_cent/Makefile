@@ -12,7 +12,7 @@ SRC	= conv_to_cent.c
 
 # LIBS needed to compile the EXECUTABLE (eg: /usr/local/lib/libspecial.a)
 # use $(LIBDIR) defined above if appropriate
-LIBS	= $(LIBDIR)/arg.a $(LIBDIR)/temp_conv.a
+LIBS	= $(LIBDIR)/libarg.a $(LIBDIR)/libtemp_conv.a
 
 # How they are invoked on the compile line (eg: -lspecial)
 LLIBS	= -larg -ltemp_conv 

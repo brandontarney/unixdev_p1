@@ -11,7 +11,7 @@
 # 
 
 # Library to make (eg: libeg.a)
-LIBRARY = temp_conv.a 
+LIBRARY = libtemp_conv.a 
 
 
 # Source files for LIBRARY routines

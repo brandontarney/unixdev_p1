@@ -17,7 +17,7 @@ int main (int argc, char* argv[])
     {
             //success
 
-            output_celsius = convert_to_celsius(input_fahrenheit);
+            output_celsius = convert_to_cent(input_fahrenheit);
             printf("You entered %f deg F which is %f deg C\n",
                     input_fahrenheit, 
                     output_celsius);

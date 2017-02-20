@@ -11,7 +11,7 @@
 # 
 
 # Library to make (eg: libeg.a)
-LIBRARY = arg.a 
+LIBRARY = libarg.a 
 
 
 # Source files for LIBRARY routines

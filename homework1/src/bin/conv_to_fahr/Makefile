@@ -20,10 +20,10 @@ SRC	= conv_to_fahr.c
 
 # LIBS needed to compile the EXECUTABLE (eg: /usr/local/lib/libspecial.a)
 # use $(LIBDIR) defined above if appropriate
-LIBS	= 
+LIBS	= $(LIBDIR)/libarg.a $(LIBDIR)/libtemp_conv.a
 
 # How they are invoked on the compile line (eg: -lspecial)
-LLIBS	= 
+LLIBS	= -larg -ltemp_conv
 
 # Local additions for CFLAG options
 LOCAL_CFLAGS	= -g
