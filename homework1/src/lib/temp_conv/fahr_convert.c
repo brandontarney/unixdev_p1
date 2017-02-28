@@ -6,7 +6,7 @@
    */
 #include "temp_conv.h"
 
-double convert_to_fahr(double celsius)
+double convert_to_fahr(int celsius)
 {
         return ((double)(celsius*9/5 + 32));
 }

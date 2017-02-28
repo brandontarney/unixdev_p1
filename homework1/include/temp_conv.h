@@ -7,6 +7,6 @@
 #ifndef temp_conv
 #define temp_conv
 
-double convert_to_cent(double fahr);
-double convert_to_fahr(double celsius);
+double convert_to_cent(int fahr);
+double convert_to_fahr(int celsius);
 #endif

@@ -6,7 +6,7 @@
    */
 #include "temp_conv.h"
 
-double convert_to_cent(double fahr)
+double convert_to_cent(int fahr)
 {
         return ((double)((fahr - 32) * 5/9));
 }

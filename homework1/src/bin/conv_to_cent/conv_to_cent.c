@@ -11,22 +11,24 @@
 
 int main (int argc, char* argv[])
 {
-    double input_fahrenheit, output_celsius;
+    double output_celsius;
+    int input_fahrenheit;
 
-    if (get_argument(argc, argv, &input_fahrenheit) == 0)
+    if (get_argument(argc, argv, (int*) &input_fahrenheit) == 0)
     {
             //success
+            printf("You entered %d deg F\n", input_fahrenheit);
+           
 
             output_celsius = convert_to_cent(input_fahrenheit);
-            printf("You entered %f deg F which is %f deg C\n",
-                    input_fahrenheit, 
+            printf("Which is %f deg C\n",
                     output_celsius);
             return (0);
     }
     else 
     {
             //input failure: alert the user and exit
-            printf("Input argument failure");
+            printf("Input argument failure\n");
             return (1);
     }
     
